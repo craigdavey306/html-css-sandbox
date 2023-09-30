@@ -1,0 +1,27 @@
+body {
+  background: lightblue;
+  text-align: center;
+}
+
+.main-content {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background: lightpink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 1s, transform 0.3s;
+}
+
+.circle:hover {
+  background: salmon;
+  transform: rotate(360deg);
+}

@@ -1,0 +1,26 @@
+body {
+  background: #eee;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#main-content {
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 1.2rem;
+}
+
+.block {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+.inline {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+  display: inline-block;
+}

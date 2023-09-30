@@ -1,0 +1,56 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+article p:first-of-type {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+article p:last-of-type {
+  color: red;
+}
+
+article:nth-of-type(1) {
+  background: lightblue;
+}
+
+article h2,
+article p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:nth-child(1),
+li:nth-child(7) {
+  font-weight: bold;
+}
+
+li:nth-child(even) {
+  background-color: lightgrey;
+}
+
+li:nth-child(odd) {
+  background-color: lightpink;
+}
+
+/* formula-based selector */
+li:nth-child(2n + 2) {
+  color: blue;
+}

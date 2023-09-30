@@ -1,0 +1,17 @@
+body {
+  font-family: cursive;
+}
+
+p {
+  color: rebeccapurple;
+}
+
+.ipsum-content {
+  font-weight: 900;
+  font-size: large;
+}
+
+#lorem-ipsum p {
+  font-style: italic;
+  color: #000;
+}

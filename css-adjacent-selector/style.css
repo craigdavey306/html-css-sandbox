@@ -1,0 +1,5 @@
+/* Select the p tag directly following the h2 in main */
+main h2 + p {
+  font-size: small;
+  font-style: italic;
+}

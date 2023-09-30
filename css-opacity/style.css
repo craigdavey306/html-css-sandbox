@@ -1,0 +1,43 @@
+body {
+  background: #eee;
+}
+
+#main-content {
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 2%;
+  position: relative;
+  min-height: 700px;
+}
+
+#circle-1 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(200, 200, 100, 1);
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+
+#circle-2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(200, 100, 200, 0.6);
+  border-radius: 50%;
+  top: 250px;
+  left: 150px;
+}
+
+#circle-3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(100, 200, 200, 0.7);
+  border-radius: 50%;
+  top: 50px;
+  left: 250px;
+}
