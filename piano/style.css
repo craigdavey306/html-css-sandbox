@@ -1,0 +1,121 @@
+:root {
+  --keyboard-primary: hsl(228, 96%, 50%);
+  --keyboard-border: hsl(20, 91%, 5%);
+  --key-natural: hsl(0, 0%, 100%);
+  --key-accidental: hsl(0, 0%, 20%);
+  --key-border: 1px solid hsl(0, 0%, 73%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightblue;
+}
+
+.container {
+  position: relative;
+}
+
+/* .natural,
+.accidental {
+  position: relative;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 0.5rem 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.natural {
+  height: 12.5rem;
+  width: 3.5rem;
+  z-index: 1;
+  border-left: var(--key-border);
+  border-bottom: var(--key-border);
+  background: var(--key-natural);
+}
+
+.offset {
+  margin: 0 0 0 -1rem;
+}
+
+.accidental {
+  height: 8rem;
+  width: 2rem;
+  z-index: 2;
+  margin: 0 0 0 -1rem;
+  border-radius: 0 0 3px 3px;
+  background: var(--key-accidental);
+} */
+
+/* 
+
+#keyboard {
+  height: 15.25rem;
+  width: 39rem;
+  margin: 0.5rem auto;
+  padding: 3rem 0 0 3rem;
+  position: relative;
+  background-color: var(--keyboard-primary);
+  border-radius: 2rem;
+  border: 1px solid var(--keyboard-border);
+}
+
+#keyboard li:first-child {
+  border-radius: 5px 0 5px 5px;
+}
+
+#keyboard li:last-child {
+  border-radius: 0 5px 5px 5px;
+} */
+
+/* alternative styles */
+
+#keyboard {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.natural,
+.accidental {
+  position: relative;
+  border: var(--key-border);
+  border-radius: 0 0 0.3rem 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+  user-select: none;
+  font-size: 1.25rem;
+}
+
+.natural {
+  z-index: 1;
+  height: 15rem;
+  margin-right: -2.4rem;
+  width: 3.5rem;
+  background-color: var(--key-natural);
+  &:nth-child(5),
+  &:nth-child(12),
+  &:nth-child(17) {
+    margin-right: 0;
+  }
+}
+
+.accidental {
+  z-index: 2;
+  height: 7.5rem;
+  width: 2.25rem;
+  left: 1.125rem;
+  background-color: var(--key-accidental);
+}
